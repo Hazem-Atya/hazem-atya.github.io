@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {profilePicture} from "../../Utils/constants";
+
+// declare const mainJS: any;
 
 @Component({
   selector: 'app-about',
@@ -7,9 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  profilePicture=profilePicture;
   constructor() { }
 
   ngOnInit(): void {
+    // mainJS();
   }
 
 }
